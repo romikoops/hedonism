@@ -1,456 +1,613 @@
 ---
-- query: adler, russia
-  lat: '43.4343234'
-  lng: '39.93394620000004'
-  country: Russia
-  full_address: Adler, Krasnodar Krai, Russia
-- query: venice beach, CA
-  lat: '33.9850469'
-  lng: "-118.46948320000001"
-  country: United States
-  full_address: Venice, Los Angeles, CA, USA
-- query: sunnyvale, CA
-  lat: '37.36883'
-  lng: "-122.0363496"
-  country: United States
-  full_address: Sunnyvale, CA, USA
-- query: chicago, IL
-  lat: '41.8781136'
-  lng: "-87.62979819999998"
-  country: United States
-  full_address: Chicago, IL, USA
-  guide: Chicago.md
-- query: brooklyn, NY
-  lat: '40.6781784'
-  lng: "-73.9441579"
-  country: United States
-  full_address: Brooklyn, NY, USA
-- query: columbus circle, NYC
-  lat: '40.7680441'
-  lng: "-73.98237219999999"
-  country: United States
-  full_address: Columbus Cir, New York, NY, USA
-  guide: NYC.md
-- query: lisbon, portugal
-  lat: '38.7222524'
-  lng: "-9.139336599999979"
-  country: Portugal
-  full_address: Lisbon, Portugal
-- query: porto, portugal
-  lat: '41.1579438'
-  lng: "-8.629105299999992"
-  country: Portugal
-  full_address: Porto, Portugal
-- query: paris, france
-  lat: '48.856614'
-  lng: '2.3522219000000177'
-  country: France
-  full_address: Paris, France
-- query: minsk, belarus
-  lat: '53.90453979999999'
-  lng: '27.561524400000053'
-  country: Belarus
-  full_address: Minsk, Belarus
-- query: helsinki, finland
-  lat: '60.16985569999999'
-  lng: '24.93837899999994'
-  country: Finland
-  full_address: Helsinki, Finland
-  guide: Helsinki.md
-- query: turku, finland
-  lat: '60.4518126'
-  lng: '22.266630299999974'
-  country: Finland
-  full_address: Turku, Finland
-- query: stockholm, sweden
-  lat: '59.32932349999999'
-  lng: '18.068580800000063'
-  country: Sweden
-  full_address: Stockholm, Sweden
-- query: oslo, norway
-  lat: '59.9138688'
-  lng: '10.752245399999993'
-  country: Norway
-  full_address: Oslo, Norway
-- query: bergen, norway
-  lat: '60.39126279999999'
-  lng: '5.32205440000007'
-  country: Norway
-  full_address: Bergen, Norway
-- query: copenhagen, denmark
-  lat: '55.6760968'
-  lng: '12.568337100000008'
-  country: Denmark
-  full_address: Copenhagen, Denmark
-- query: riga, latvia
-  lat: '56.9496487'
-  lng: '24.10518639999998'
-  country: Latvia
-  full_address: Riga, Latvia
-- query: prague, CZ
-  lat: '50.0755381'
-  lng: '14.43780049999998'
-  country: Czechia
-  full_address: Prague, Czechia
-- query: berlin
-  lat: '52.52000659999999'
-  lng: '13.404953999999975'
-  country: Germany
-  full_address: Berlin, Germany
-  guide: Berlin.md
-- query: kiev, ukraine
-  lat: '50.4501'
-  lng: '30.523400000000038'
-  country: Ukraine
-  full_address: Kiev, Ukraine
-- query: tbilisi, georgia
-  lat: '41.7151377'
-  lng: '44.82709599999998'
-  country: Georgia
-  full_address: Tbilisi, Georgia
-  guide: Georgia.md
-- query: ekaterinburg, russia
-  lat: '56.83892609999999'
-  lng: '60.60570250000001'
-  country: Russia
-  full_address: Yekaterinburg, Sverdlovsk Oblast, Russia
-- query: saint petersburg, russia
-  lat: '59.9342802'
-  lng: '30.335098600000038'
-  country: Russia
-  full_address: St Petersburg, Russia
-  guide: Saint-Petersburg.md
-- query: moscow, russia
-  lat: '55.755826'
-  lng: '37.6173'
-  country: Russia
-  full_address: Moscow, Russia
-  guide: Moscow.md
-- query: toronto, ON
-  lat: '43.653226'
-  lng: "-79.38318429999998"
-  country: Canada
-  full_address: Toronto, ON, Canada
-  guide: Toronto.md
-- query: niagara falls, ON
-  lat: '43.0895577'
-  lng: "-79.08494359999997"
-  country: Canada
-  full_address: Niagara Falls, ON, Canada
-- query: san diego, CA
-  lat: '32.715738'
-  lng: "-117.16108380000003"
-  country: United States
-  full_address: San Diego, CA, USA
-- query: kansas city
-  lat: '39.0997265'
-  lng: "-94.57856670000001"
-  country: United States
-  full_address: Kansas City, MO, USA
-- query: barcelona, spain
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Barcelona
   lat: '41.3850639'
   lng: '2.1734034999999494'
-  country: Spain
-  full_address: Barcelona, Spain
-  guide: Barcelona.md
-- query: rome, italy
-  lat: '41.9027835'
-  lng: '12.496365500000024'
-  country: Italy
-  full_address: Rome, Italy
-- query: milan, italy
-  lat: '45.4654219'
-  lng: '9.18592430000001'
-  country: Italy
-  full_address: Milan, Italy
-- query: zurich, switzerland
-  lat: '47.3768866'
-  lng: '8.541694000000007'
-  country: Switzerland
-  full_address: Zürich, Switzerland
-- query: amsterdam, neitherlands
-  lat: '52.3702157'
-  lng: '4.895167899999933'
-  country: Netherlands
-  full_address: Amsterdam, Netherlands
-  guide: Amsterdam.md
-- query: hamburg, germany
+  country: Испания
+  full_address: Барселона, Испания
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Moscow
+  lat: '55.755826'
+  lng: '37.617299900000035'
+  country: Россия
+  full_address: Москва, Россия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Berlin
+  lat: '52.52000659999999'
+  lng: '13.404953999999975'
+  country: Германия
+  full_address: Берлин, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Paris
+  lat: '48.856614'
+  lng: '2.3522219000000177'
+  country: Франция
+  full_address: Париж, Франция
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Amsterdam
+  lat: '52.3679843'
+  lng: '4.903561399999944'
+  country: Нидерланды
+  full_address: Амстердам, Нидерланды
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Hamburg
   lat: '53.5510846'
-  lng: '9.99368179999999'
-  country: Germany
-  full_address: Hamburg, Germany
-- query: malmo, sweden
-  lat: '55.604981'
-  lng: '13.003822000000014'
-  country: Sweden
-  full_address: Malmö, Sweden
-- query: singapore
-  lat: '1.352083'
-  lng: '103.81983600000001'
-  country: Singapore
-  full_address: Singapore
-  guide: Singapore.md
-- query: koh pangan, thailand
-  lat: '9.731875299999999'
-  lng: '100.01359290000005'
-  country: Thailand
-  full_address: Ko Pha Ngan, Ko Pha-ngan District, Surat Thani 84280, Thailand
-- query: bangkok, thailand
-  lat: '13.7563309'
-  lng: '100.50176510000006'
-  country: Thailand
-  full_address: Bangkok, Thailand
-- query: macao
-  lat: '22.198745'
-  lng: '113.54387300000008'
-  country: Macau
-  full_address: Macau
-- query: hong kong
-  lat: '22.396428'
-  lng: '114.10949700000003'
-  country: Hong Kong
-  full_address: Hong Kong
-- query: vienna, austria
-  lat: '48.2081743'
-  lng: '16.37381890000006'
-  country: Austria
-  full_address: Vienna, Austria
-  guide: Vienna.md
-- query: budapest, hungary
-  lat: '47.497912'
-  lng: '19.04023499999994'
-  country: Hungary
-  full_address: Budapest, Hungary
-  guide: Budapest.md
-- query: odessa, ukraine
+  lng: '9.993681899999956'
+  country: Германия
+  full_address: Гамбург, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Копенгаген
+  lat: '55.6760968'
+  lng: '12.568337199999974'
+  country: Дания
+  full_address: Копенгаген, Дания
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Рига
+  lat: '56.9496487'
+  lng: '24.105186499999945'
+  country: Латвия
+  full_address: Рига, Латвия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Киев
+  lat: '50.4501'
+  lng: '30.523400000000038'
+  country: Украина
+  full_address: Киев, Украина, 02000
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Сумы
+  lat: '50.9077'
+  lng: '34.79809999999998'
+  country: Украина
+  full_address: Сумы, Сумская область, Украина, 40000
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Харьков
+  lat: '49.9935'
+  lng: '36.230383000000074'
+  country: Украина
+  full_address: Харьков, Харьковская область, Украина
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Львов
+  lat: '49.839683'
+  lng: '24.029717000000005'
+  country: Украина
+  full_address: Львов, Львовская область, Украина, 79000
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Хмельницкий
+  lat: '49.422983'
+  lng: '26.987133099999937'
+  country: Украина
+  full_address: Хмельницкий, Хмельницкая область, Украина, 29000
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Днипро
+  lat: '48.464717'
+  lng: '35.04618299999993'
+  country: Украина
+  full_address: Днипро, Днепропетровская область, Украина, 49000
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Одесса
   lat: '46.482526'
   lng: '30.723309500000028'
-  country: Ukraine
-  full_address: Odessa, Odessa Oblast, Ukraine
-- query: madrid, spain
-  lat: '40.4167754'
-  lng: "-3.7037901999999576"
-  country: Spain
-  full_address: Madrid, Spain
-- query: lille, france
-  lat: '50.62925'
-  lng: '3.057256000000052'
-  country: France
-  full_address: Lille, France
-- query: hanover, germany
-  lat: '52.3758916'
-  lng: '9.732010400000036'
-  country: Germany
-  full_address: Hanover, Germany
-- query: brest, belarus
-  lat: '52.09762139999999'
-  lng: '23.734050300000035'
-  country: Belarus
-  full_address: Brest, Belarus
-- query: ottawa, ON
-  lat: '45.4215296'
-  lng: "-75.69719309999999"
-  country: Canada
-  full_address: Ottawa, ON, Canada
-  guide: Ottawa.md
-- query: montreal, QC
-  lat: '45.5016889'
-  lng: "-73.56725599999999"
-  country: Canada
-  full_address: Montreal, QC, Canada
-  guide: Montreal.md
-- query: atlanta, GA
-  lat: '33.7489954'
-  lng: "-84.3879824"
-  country: United States
-  full_address: Atlanta, GA, USA
-- query: Cape Town
-  lat: "-33.9248685"
-  lng: '18.424055299999964'
-  country: South Africa
-  full_address: Cape Town, South Africa
-- query: cape of good hope south africa
-  lat: "-34.3568425"
-  lng: '18.473988200000008'
-  country: South Africa
-  full_address: Cape of Good Hope, Cape Point Rd, Cape Town, 8001, South Africa
-- query: puerto vallarta
-  lat: '20.653407'
-  lng: "-105.2253316"
-  country: Mexico
-  full_address: Puerto Vallarta, Jalisco, Mexico
-- query: quebec city
-  lat: '46.8138783'
-  lng: "-71.2079809"
-  country: Canada
-  full_address: Québec City, QC, Canada
-- query: saint felicien
-  lat: '48.6517071'
-  lng: "-72.44897759999998"
-  country: Canada
-  full_address: Saint-Félicien, QC, Canada
-- query: tallinn, estonia
-  lat: '59.43696079999999'
-  lng: '24.75357459999998'
-  country: Estonia
-  full_address: Tallinn, Estonia
-- query: brussels, belgium
-  lat: '50.8503463'
-  lng: '4.351721099999963'
-  country: Belgium
-  full_address: Brussels, Belgium
-- query: bruges, belgium
-  lat: '51.209348'
-  lng: '3.2246995000000425'
-  country: Belgium
-  full_address: Bruges, Belgium
-- query: rotterdam
-  lat: '51.9244201'
-  lng: '4.477732500000002'
-  country: Netherlands
-  full_address: Rotterdam, Netherlands
-- query: cadiz, spain
-  lat: '36.5270612'
-  lng: "-6.288596200000029"
-  country: Spain
-  full_address: Cádiz, Spain
-- query: seville, spain
-  lat: '37.3890924'
-  lng: "-5.984458899999936"
-  country: Spain
-  full_address: Seville, Sevilla, Spain
-- query: granada, spain
-  lat: '37.1773363'
-  lng: "-3.5985570999999936"
-  country: Spain
-  full_address: Granada, Spain
-- query: kazbegi, georgia
-  lat: '42.66026799999999'
-  lng: '44.641143000000056'
-  country: Georgia
-  full_address: Stepantsminda, Georgia
-- query: cheboksary, russia
-  lat: '56.11676629999999'
-  lng: '47.262782000000016'
-  country: Russia
-  full_address: Cheboksary, Chuvashia Republic, Russia
-- query: samara, russia
-  lat: '53.2415041'
-  lng: '50.22124629999996'
-  country: Russia
-  full_address: Samara, Samara Oblast, Russia
-- query: London, UK
-  lat: '51.5073509'
-  lng: "-0.12775829999998223"
-  country: United Kingdom
-  full_address: London, UK
-- query: Bratislava, Slovakia
-  lat: '48.1485965'
-  lng: '17.107747700000004'
-  country: Slovakia
-  full_address: Bratislava, Slovakia
-- query: Salzburg, Austria
-  lat: '47.80949'
-  lng: '13.055010000000038'
-  country: Austria
-  full_address: Salzburg, Austria
-- query: Banff, Canada
-  lat: '51.1783629'
-  lng: "-115.57076940000002"
-  country: Canada
-  full_address: Banff, AB, Canada
-- query: Calgary, Canada
-  lat: '51.0486151'
-  lng: "-114.0708459"
-  country: Canada
-  full_address: Calgary, AB, Canada
-- query: Dresden, Germany
+  country: Украина
+  full_address: Одесса, Одесская область, Украина, 65000
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Гомель
+  lat: '52.4411761'
+  lng: '30.98784610000007'
+  country: Беларусь
+  full_address: Гомель, Беларусь
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Катовице
+  lat: '50.26489189999999'
+  lng: '19.02378150000004'
+  country: Польша
+  full_address: Катовице, Польша
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Варшава
+  lat: '52.2296756'
+  lng: '21.012228700000037'
+  country: Польша
+  full_address: Варшава, Польша
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Щецин
+  lat: '53.4285438'
+  lng: '14.552811600000041'
+  country: Польша
+  full_address: Щецин, Польша
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Гданьск
+  lat: '54.35202520000001'
+  lng: '18.64663840000003'
+  country: Польша
+  full_address: Гданьск, Польша
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Познань
+  lat: '52.406374'
+  lng: '16.925168100000064'
+  country: Польша
+  full_address: Познань, Польша
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Дрезден
   lat: '51.0504088'
   lng: '13.737262099999953'
-  country: Germany
-  full_address: Dresden, Germany
-- query: Istanbul, Turkey
-  lat: '41.0082376'
-  lng: '28.97835889999999'
-  country: Turkey
-  full_address: Istanbul, İstanbul, Turkey
-- query: Zagreb, Croatia
-  lat: '45.8150108'
-  lng: '15.981918899999982'
-  country: Croatia
-  full_address: Zagreb, Croatia
-- query: Ljubjana, Slovenia
-  lat: '46.0569465'
-  lng: '14.505751499999974'
-  country: Slovenia
-  full_address: Ljubljana, Slovenia
-- query: Koper, Slovenia
-  lat: '45.54805899999999'
-  lng: '13.730187699999988'
-  country: Slovenia
-  full_address: 6000 Koper, Slovenia
-- query: Venice, Italy
-  lat: '45.4408474'
-  lng: '12.31551509999997'
-  country: Italy
-  full_address: Venice, Metropolitan City of Venice, Italy
-- query: Trieste, Italy
-  lat: '45.6495264'
-  lng: '13.77681819999998'
-  country: Italy
-  full_address: Trieste, Province of Trieste, Italy
-- query: Ryazan, Russia
-  lat: '54.6095418'
-  lng: '39.71258569999998'
-  country: Russia
-  full_address: Ryazan, Ryazan Oblast, Russia
-- query: Dublin
-  lat: '53.3498053'
-  lng: "-6.260309699999993"
-  country: Ireland
-  full_address: Dublin, Ireland
-- query: Margate, UK
-  lat: '51.38964600000001'
-  lng: '1.386833900000056'
-  country: United Kingdom
-  full_address: Margate, UK
-- query: Bremen
-  lat: '53.07929619999999'
-  lng: '8.801693600000021'
-  country: Germany
-  full_address: Bremen, Germany
-- query: Zadar, Croatia
-  lat: '44.119371'
-  lng: '15.231364799999938'
-  country: Croatia
-  full_address: Zadar, Croatia
-- query: Ancona, Italy
-  lat: '43.6158299'
-  lng: '13.518914999999993'
-  country: Italy
-  full_address: Ancona, Province of Ancona, Italy
-- query: San Marino
-  lat: '43.94236'
-  lng: '12.457776999999965'
-  country: San Marino
-  full_address: San Marino
-- query: Marakesh
-  lat: '31.6294723'
-  lng: "-7.981084499999952"
-  country: Morocco
-  full_address: Marrakesh, Morocco
-- query: Casablanca
-  lat: '33.5731104'
-  lng: "-7.589843400000063"
-  country: Morocco
-  full_address: Casablanca, Morocco
-- query: Rabat
-  lat: '33.9715904'
-  lng: "-6.849812899999961"
-  country: Morocco
-  full_address: Rabat, Morocco
-- query: Fes, Morocco
-  lat: '34.0181246'
-  lng: "-5.00784509999994"
-  country: Morocco
-  full_address: Fes, Morocco
+  country: Германия
+  full_address: Дрезден, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Ялта
+  lat: '44.49520500000001'
+  lng: '34.166300999999976'
+  country: undefined
+  full_address: Ялта
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Симферополь
+  lat: '44.952117'
+  lng: '34.10241700000006'
+  country: undefined
+  full_address: Симферополь
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Нов. Свет
+  lat: '44.829819'
+  lng: '34.91508399999998'
+  country: undefined
+  full_address: Нов. Свет
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Гурзуф
+  lat: '44.54844809999999'
+  lng: '34.28418609999994'
+  country: undefined
+  full_address: Гурзуф
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Кирилловка
+  lat: '46.369247'
+  lng: '35.34163169999999'
+  country: Украина
+  full_address: Кирилловка, Запорожская область, Украина
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Мелитополь
+  lat: '46.8550216'
+  lng: '35.35869960000002'
+  country: Украина
+  full_address: Мелитополь, Запорожская область, Украина, 72300
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Грибовка
+  lat: '46.2089015'
+  lng: '30.561407400000007'
+  country: Украина
+  full_address: Грибовка, Одесская область, Украина, 67842
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Конотоп
+  lat: '51.2409432'
+  lng: '33.20505209999999'
+  country: Украина
+  full_address: Конотоп, Сумская область, Украина, 41600
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Путивль
+  lat: '51.3345739'
+  lng: '33.86468339999999'
+  country: Украина
+  full_address: Путивль, Сумская область, Украина
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Белополье
+  lat: '51.14940199999999'
+  lng: '34.317522499999995'
+  country: Украина
+  full_address: Белополье, Сумская область, Украина, 41801
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Ворожба
+  lat: '51.1657844'
+  lng: '34.2327186'
+  country: Украина
+  full_address: Ворожба, Сумская область, Украина, 41811
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Глухов
+  lat: '51.6708844'
+  lng: '33.9078925'
+  country: Украина
+  full_address: Глухов, Сумская область, Украина
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Шостка
+  lat: '51.8757044'
+  lng: '33.49661519999995'
+  country: Украина
+  full_address: Шостка, Сумская область, Украина, 41100
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Ромны
+  lat: '50.7415087'
+  lng: '33.48095260000002'
+  country: Украина
+  full_address: Ромны, Сумская область, Украина, 42004
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Пирятин
+  lat: '50.2394849'
+  lng: '32.50709269999993'
+  country: Украина
+  full_address: Пирятин, Полтавская область, Украина
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Прилуки
+  lat: '50.5884714'
+  lng: '32.38758250000001'
+  country: Украина
+  full_address: Прилуки, Черниговская область, Украина
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Лебедин
+  lat: '50.5837638'
+  lng: '34.490464299999985'
+  country: Украина
+  full_address: Лебедин, Сумская область, Украина
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Ахтырка
+  lat: '50.3150962'
+  lng: '34.90056440000001'
+  country: Украина
+  full_address: Ахтырка, Сумская область, Украина, 42700
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Недригайлов
+  lat: '50.8305647'
+  lng: '33.881526099999974'
+  country: Украина
+  full_address: Недригайлов, Сумская область, Украина
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Камьянец-Подольский
+  lat: '48.6967162'
+  lng: '26.58253639999998'
+  country: Украина
+  full_address: Каменец-Подольский, Хмельницкая область, Украина
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Рюген
+  lat: '54.3519967'
+  lng: '13.363049100000012'
+  country: Германия
+  full_address: Рюген, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Дортмунд
+  lat: '51.5135872'
+  lng: '7.465298100000041'
+  country: Германия
+  full_address: Дортмунд, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Эссен
+  lat: '51.4556432'
+  lng: '7.011555199999975'
+  country: Германия
+  full_address: Эссен, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Дюссельдорф
+  lat: '51.2277411'
+  lng: '6.773455600000034'
+  country: Германия
+  full_address: Дюссельдорф, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Кёльн
+  lat: '50.937531'
+  lng: '6.960278600000038'
+  country: Германия
+  full_address: Кёльн, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Бонн
+  lat: '50.73743'
+  lng: '7.098206800000071'
+  country: Германия
+  full_address: Бонн, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Франкфурт-на-Майне
+  lat: '50.1109221'
+  lng: '8.682126700000026'
+  country: Германия
+  full_address: Франкфурт-на-Майне, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Майнц
+  lat: '49.9928617'
+  lng: '8.247252600000024'
+  country: Германия
+  full_address: Майнц, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Вюрцбург
+  lat: '49.79130439999999'
+  lng: '9.953354799999943'
+  country: Германия
+  full_address: Вюрцбург, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Ротенбург-об-дер-Таубер
+  lat: '49.3801834'
+  lng: '10.186738800000057'
+  country: Германия
+  full_address: Ротенбург-об-дер-Таубер, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Штутгарт
+  lat: '48.7758459'
+  lng: '9.182932100000016'
+  country: Германия
+  full_address: Штутгарт, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Карлсрюэ
+  lat: '49.0068901'
+  lng: '8.403652700000066'
+  country: Германия
+  full_address: Карлсруэ, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Мюнхен
+  lat: '48.1351253'
+  lng: '11.581980499999986'
+  country: Германия
+  full_address: Мюнхен, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Мемминген
+  lat: '47.9837999'
+  lng: '10.180188300000054'
+  country: Германия
+  full_address: 87700 Мемминген, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Линдау
+  lat: '47.5797815'
+  lng: '9.67893330000004'
+  country: Германия
+  full_address: 88131 Линдау, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Вальгау
+  lat: '47.5213614'
+  lng: '11.281795800000054'
+  country: Германия
+  full_address: 82499 Вальгау, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Кёнигсзе
+  lat: '47.5541796'
+  lng: '12.978374400000007'
+  country: Германия
+  full_address: Кёнигсзе, 83471 Шёнау-ам-Кёнигсзе, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Hintersee
+  lat: '47.60650769999999'
+  lng: '12.85371239999995'
+  country: Германия
+  full_address: Озеро Хинтер, 83486 Рамзау, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Химзе
+  lat: '47.8709042'
+  lng: '12.453737499999988'
+  country: Германия
+  full_address: Озеро Хим, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Ратен
+  lat: '50.9588487'
+  lng: '14.083300399999985'
+  country: Германия
+  full_address: Ратен, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Франкфурт Одер
+  lat: '52.3472237'
+  lng: '14.550567199999932'
+  country: Германия
+  full_address: Франкфурт, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Рюдерсдорф
+  lat: '52.481592'
+  lng: '13.837397099999976'
+  country: Германия
+  full_address: Рюдерсдорф, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Штраусберг
+  lat: '52.5659128'
+  lng: '13.877754600000003'
+  country: Германия
+  full_address: Штраусберг, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Ораниенбург
+  lat: '52.7537284'
+  lng: '13.23668090000001'
+  country: Германия
+  full_address: Ораниенбург, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Потсдам
+  lat: '52.3905689'
+  lng: '13.064472900000055'
+  country: Германия
+  full_address: Потсдам, Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Spreewald
+  lat: '51.835031'
+  lng: '14.14557590000004'
+  country: Германия
+  full_address: Bahnhofstraße 15, 03096 Burg (Spreewald), Германия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Люксембург
+  lat: '49.815273'
+  lng: '6.129583000000025'
+  country: Люксембург
+  full_address: Люксембург
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Люцерн
+  lat: '47.05016819999999'
+  lng: '8.309307200000035'
+  country: Швейцария
+  full_address: Люцерн, Швейцария
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Цюрих
+  lat: '47.3768866'
+  lng: '8.541694000000007'
+  country: Швейцария
+  full_address: Цюрих, Швейцария
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Матерхорн
+  lat: '45.976575'
+  lng: '7.6584519000000455'
+  country: undefined
+  full_address: Маттерхорн
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Церматт
+  lat: '46.0207133'
+  lng: '7.749117000000069'
+  country: Швейцария
+  full_address: 3920 Церматт, Швейцария
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Инсбрук
+  lat: '47.2692124'
+  lng: '11.404102400000056'
+  country: Австрия
+  full_address: Иннсбрук, Австрия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Зальцбург
+  lat: '47.80949'
+  lng: '13.055010000000038'
+  country: Австрия
+  full_address: Зальцбург, Австрия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Зёлль
+  lat: '47.5038387'
+  lng: '12.19236909999995'
+  country: Австрия
+  full_address: 6306 Зёлль, Австрия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Türtsch
+  lat: '47.23834'
+  lng: '9.884990000000016'
+  country: Австрия
+  full_address: 6731 Тюрч, Австрия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Вадуц
+  lat: '47.1410303'
+  lng: '9.520927700000016'
+  country: Лихтенштейн
+  full_address: 9490 Вадуц, Лихтенштейн
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Будапешт
+  lat: '47.497912'
+  lng: '19.04023499999994'
+  country: Венгрия
+  full_address: Будапешт, Венгрия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Прага
+  lat: '50.0755381'
+  lng: '14.43780049999998'
+  country: Чехия
+  full_address: Прага, Чехия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Подгорица
+  lat: '42.4304196'
+  lng: '19.259364199999936'
+  country: Черногория
+  full_address: Подгорица, Черногория
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Котор
+  lat: '42.424662'
+  lng: '18.77123400000005'
+  country: Черногория
+  full_address: Котор, Черногория
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Будва
+  lat: '42.2911489'
+  lng: '18.84029499999997'
+  country: Черногория
+  full_address: Будва, Черногория
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Тиват
+  lat: '42.4349809'
+  lng: '18.706639799999948'
+  country: Черногория
+  full_address: Тиват, Черногория
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Ираклион
+  lat: '35.3387352'
+  lng: '25.144212599999946'
+  country: Греция
+  full_address: Ираклион, Греция
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Лимассол
+  lat: '34.7071301'
+  lng: '33.022617399999945'
+  country: Кипр
+  full_address: Лимассол, Кипр
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Пафос
+  lat: '34.7720133'
+  lng: '32.429736899999966'
+  country: Кипр
+  full_address: Пафос, Кипр
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Ларнака
+  lat: '34.9002535'
+  lng: '33.623172299999965'
+  country: Кипр
+  full_address: Ларнака, Кипр
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Шарм-эль-Шейк
+  lat: '27.9158175'
+  lng: '34.329950499999995'
+  country: Египет
+  full_address: Шарм-эль-Шейх, Qesm Sharm Ash Sheikh, Южная Сина, Египет
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Катания
+  lat: '37.5078772'
+  lng: '15.083030399999984'
+  country: Италия
+  full_address: Катания, Италия
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Белфаст
+  lat: '54.59728500000001'
+  lng: "-5.930119999999988"
+  country: Великобритания
+  full_address: Белфаст, Великобритания
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Лондон
+  lat: '51.5073509'
+  lng: "-0.12775829999998223"
+  country: Великобритания
+  full_address: Лондон, Великобритания
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Бирмингем
+  lat: '52.48624299999999'
+  lng: "-1.8904009999999971"
+  country: Великобритания
+  full_address: Бирмингем, Великобритания
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Маями
+  lat: '25.7616798'
+  lng: "-80.19179020000001"
+  country: Соединенные Штаты Америки
+  full_address: Майами, Флорида, США
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Сан-Франциско
+  lat: '37.7749295'
+  lng: "-122.41941550000001"
+  country: Соединенные Штаты Америки
+  full_address: Сан-Франциско, Калифорния, США
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Сан-Хосе
+  lat: '37.3382082'
+  lng: "-121.88632860000001"
+  country: Соединенные Штаты Америки
+  full_address: Сан-Хосе, Калифорния, США
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Пало-Альто
+  lat: '37.4418834'
+  lng: "-122.14301949999998"
+  country: Соединенные Штаты Америки
+  full_address: Пало-Альто, Калифорния, США
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Маунтин-Вью
+  lat: '37.3860517'
+  lng: "-122.0838511"
+  country: Соединенные Штаты Америки
+  full_address: Маунтин-Вью, Калифорния, США
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Редвуд-Сити
+  lat: '37.48521520000001'
+  lng: "-122.23635480000002"
+  country: Соединенные Штаты Америки
+  full_address: Редвуд-Сити, Калифорния, США
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Беркли
+  lat: '37.8715926'
+  lng: "-122.27274699999998"
+  country: Соединенные Штаты Америки
+  full_address: Беркли, Калифорния, США
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Дейли-Сити
+  lat: '37.6879241'
+  lng: "-122.47020789999999"
+  country: Соединенные Штаты Америки
+  full_address: Дейли-Сити, Калифорния, США
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Купертино
+  lat: '37.3229978'
+  lng: "-122.03218229999999"
+  country: Соединенные Штаты Америки
+  full_address: Купертино, Калифорния, США

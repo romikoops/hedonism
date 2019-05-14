@@ -105,163 +105,19 @@ function initMap() {
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("43.4343234", "39.93394620000004"),
+      position: new google.maps.LatLng("41.3850639", "2.1734034999999494"),
     });
 
-    bindInfoWindow(marker, {"query":"adler, russia","lat":"43.4343234","lng":"39.93394620000004","country":"Russia","full_address":"Adler, Krasnodar Krai, Russia","hash":"64ff25c31b3b0b36f5f2a952223942d7"});
+    bindInfoWindow(marker, {"query":"Barcelona","lat":"41.3850639","lng":"2.1734034999999494","country":"Испания","full_address":"Барселона, Испания","hash":"311201ee2a5324cbf19c80a99289c901"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("33.9850469", "-118.46948320000001"),
+      position: new google.maps.LatLng("55.755826", "37.617299900000035"),
     });
 
-    bindInfoWindow(marker, {"query":"venice beach, CA","lat":"33.9850469","lng":"-118.46948320000001","country":"United States","full_address":"Venice, Los Angeles, CA, USA","hash":"cf97201cab2cdc34057d34025a894d28"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("37.36883", "-122.0363496"),
-    });
-
-    bindInfoWindow(marker, {"query":"sunnyvale, CA","lat":"37.36883","lng":"-122.0363496","country":"United States","full_address":"Sunnyvale, CA, USA","hash":"ab420dc6b7f4b557aac92a49bbc00f15"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("41.8781136", "-87.62979819999998"),
-    });
-
-    bindInfoWindow(marker, {"query":"chicago, IL","lat":"41.8781136","lng":"-87.62979819999998","country":"United States","full_address":"Chicago, IL, USA","guide":"Chicago.md","hash":"702d2a7fd0dad8740d5832c104c20d2d"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("40.6781784", "-73.9441579"),
-    });
-
-    bindInfoWindow(marker, {"query":"brooklyn, NY","lat":"40.6781784","lng":"-73.9441579","country":"United States","full_address":"Brooklyn, NY, USA","hash":"97f789eab5a5552fd67abb0d4b963654"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("40.7680441", "-73.98237219999999"),
-    });
-
-    bindInfoWindow(marker, {"query":"columbus circle, NYC","lat":"40.7680441","lng":"-73.98237219999999","country":"United States","full_address":"Columbus Cir, New York, NY, USA","guide":"NYC.md","hash":"b7222f27b57cfee1dde79a6de58d0668"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("38.7222524", "-9.139336599999979"),
-    });
-
-    bindInfoWindow(marker, {"query":"lisbon, portugal","lat":"38.7222524","lng":"-9.139336599999979","country":"Portugal","full_address":"Lisbon, Portugal","hash":"028966778ff422230bb950521e719630"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("41.1579438", "-8.629105299999992"),
-    });
-
-    bindInfoWindow(marker, {"query":"porto, portugal","lat":"41.1579438","lng":"-8.629105299999992","country":"Portugal","full_address":"Porto, Portugal","hash":"18f84fd0cd770055e9e5b60990b76d4c"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("48.856614", "2.3522219000000177"),
-    });
-
-    bindInfoWindow(marker, {"query":"paris, france","lat":"48.856614","lng":"2.3522219000000177","country":"France","full_address":"Paris, France","hash":"cc9e2574346c5c9d28f39cf6fb7e7089"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("53.90453979999999", "27.561524400000053"),
-    });
-
-    bindInfoWindow(marker, {"query":"minsk, belarus","lat":"53.90453979999999","lng":"27.561524400000053","country":"Belarus","full_address":"Minsk, Belarus","hash":"f1db447201b267c13e40b02aad3d5390"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("60.16985569999999", "24.93837899999994"),
-    });
-
-    bindInfoWindow(marker, {"query":"helsinki, finland","lat":"60.16985569999999","lng":"24.93837899999994","country":"Finland","full_address":"Helsinki, Finland","guide":"Helsinki.md","hash":"32d6e39b8dc78185631307635ea1a0a5"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("60.4518126", "22.266630299999974"),
-    });
-
-    bindInfoWindow(marker, {"query":"turku, finland","lat":"60.4518126","lng":"22.266630299999974","country":"Finland","full_address":"Turku, Finland","hash":"28041599161f619047dfd664090e8acf"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("59.32932349999999", "18.068580800000063"),
-    });
-
-    bindInfoWindow(marker, {"query":"stockholm, sweden","lat":"59.32932349999999","lng":"18.068580800000063","country":"Sweden","full_address":"Stockholm, Sweden","hash":"bac55b1e1c8f856f879731874d9605d3"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("59.9138688", "10.752245399999993"),
-    });
-
-    bindInfoWindow(marker, {"query":"oslo, norway","lat":"59.9138688","lng":"10.752245399999993","country":"Norway","full_address":"Oslo, Norway","hash":"d3224edb096a8cb36853913c1298a1b5"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("60.39126279999999", "5.32205440000007"),
-    });
-
-    bindInfoWindow(marker, {"query":"bergen, norway","lat":"60.39126279999999","lng":"5.32205440000007","country":"Norway","full_address":"Bergen, Norway","hash":"0dc1755f4e0efea0046cb06114e55a95"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("55.6760968", "12.568337100000008"),
-    });
-
-    bindInfoWindow(marker, {"query":"copenhagen, denmark","lat":"55.6760968","lng":"12.568337100000008","country":"Denmark","full_address":"Copenhagen, Denmark","hash":"4f7dc619dcc2a2dc86b4c4379c82c286"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("56.9496487", "24.10518639999998"),
-    });
-
-    bindInfoWindow(marker, {"query":"riga, latvia","lat":"56.9496487","lng":"24.10518639999998","country":"Latvia","full_address":"Riga, Latvia","hash":"face0a0f69077bf03324758b04a0a258"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("50.0755381", "14.43780049999998"),
-    });
-
-    bindInfoWindow(marker, {"query":"prague, CZ","lat":"50.0755381","lng":"14.43780049999998","country":"Czechia","full_address":"Prague, Czechia","hash":"ba96dd6eef12ecbf12627c2edb221f25"});
+    bindInfoWindow(marker, {"query":"Moscow","lat":"55.755826","lng":"37.617299900000035","country":"Россия","full_address":"Москва, Россия","hash":"9b183d151898ab0ee6ed7f65eff93eb7"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
@@ -270,7 +126,52 @@ function initMap() {
       position: new google.maps.LatLng("52.52000659999999", "13.404953999999975"),
     });
 
-    bindInfoWindow(marker, {"query":"berlin","lat":"52.52000659999999","lng":"13.404953999999975","country":"Germany","full_address":"Berlin, Germany","guide":"Berlin.md","hash":"4606260d4981ac472320c552fa3ab012"});
+    bindInfoWindow(marker, {"query":"Berlin","lat":"52.52000659999999","lng":"13.404953999999975","country":"Германия","full_address":"Берлин, Германия","hash":"4606260d4981ac472320c552fa3ab012"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("48.856614", "2.3522219000000177"),
+    });
+
+    bindInfoWindow(marker, {"query":"Paris","lat":"48.856614","lng":"2.3522219000000177","country":"Франция","full_address":"Париж, Франция","hash":"cc9e2574346c5c9d28f39cf6fb7e7089"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("52.3679843", "4.903561399999944"),
+    });
+
+    bindInfoWindow(marker, {"query":"Amsterdam","lat":"52.3679843","lng":"4.903561399999944","country":"Нидерланды","full_address":"Амстердам, Нидерланды","hash":"d80e97916114c0c4f6c09bbecdd91044"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("53.5510846", "9.993681899999956"),
+    });
+
+    bindInfoWindow(marker, {"query":"Hamburg","lat":"53.5510846","lng":"9.993681899999956","country":"Германия","full_address":"Гамбург, Германия","hash":"e14f83bc748af7836cd5edf70dd09400"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("55.6760968", "12.568337199999974"),
+    });
+
+    bindInfoWindow(marker, {"query":"Копенгаген","lat":"55.6760968","lng":"12.568337199999974","country":"Дания","full_address":"Копенгаген, Дания","hash":"a56e08270f06ffd573c6d0e2e82f135a"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("56.9496487", "24.105186499999945"),
+    });
+
+    bindInfoWindow(marker, {"query":"Рига","lat":"56.9496487","lng":"24.105186499999945","country":"Латвия","full_address":"Рига, Латвия","hash":"6d0621ae25cb598b2e7c1b88b0ad0121"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
@@ -279,205 +180,52 @@ function initMap() {
       position: new google.maps.LatLng("50.4501", "30.523400000000038"),
     });
 
-    bindInfoWindow(marker, {"query":"kiev, ukraine","lat":"50.4501","lng":"30.523400000000038","country":"Ukraine","full_address":"Kiev, Ukraine","hash":"99bdaa13cf87624cb88fcb88e8fd8204"});
+    bindInfoWindow(marker, {"query":"Киев","lat":"50.4501","lng":"30.523400000000038","country":"Украина","full_address":"Киев, Украина, 02000","hash":"99bdaa13cf87624cb88fcb88e8fd8204"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("41.7151377", "44.82709599999998"),
+      position: new google.maps.LatLng("50.9077", "34.79809999999998"),
     });
 
-    bindInfoWindow(marker, {"query":"tbilisi, georgia","lat":"41.7151377","lng":"44.82709599999998","country":"Georgia","full_address":"Tbilisi, Georgia","guide":"Georgia.md","hash":"a76fe7cfa82a73724ac2da9d6b8ef330"});
+    bindInfoWindow(marker, {"query":"Сумы","lat":"50.9077","lng":"34.79809999999998","country":"Украина","full_address":"Сумы, Сумская область, Украина, 40000","hash":"9f5534d4fa05d38632a7be8f6bbe789a"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("56.83892609999999", "60.60570250000001"),
+      position: new google.maps.LatLng("49.9935", "36.230383000000074"),
     });
 
-    bindInfoWindow(marker, {"query":"ekaterinburg, russia","lat":"56.83892609999999","lng":"60.60570250000001","country":"Russia","full_address":"Yekaterinburg, Sverdlovsk Oblast, Russia","hash":"4b8eeb68a4137d82e0e04dbc679553dc"});
+    bindInfoWindow(marker, {"query":"Харьков","lat":"49.9935","lng":"36.230383000000074","country":"Украина","full_address":"Харьков, Харьковская область, Украина","hash":"e7941658ab5332675c193bcd88fd81d8"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("59.9342802", "30.335098600000038"),
+      position: new google.maps.LatLng("49.839683", "24.029717000000005"),
     });
 
-    bindInfoWindow(marker, {"query":"saint petersburg, russia","lat":"59.9342802","lng":"30.335098600000038","country":"Russia","full_address":"St Petersburg, Russia","guide":"Saint-Petersburg.md","hash":"6f6ccb4fa3343771aefbd10431ecef40"});
+    bindInfoWindow(marker, {"query":"Львов","lat":"49.839683","lng":"24.029717000000005","country":"Украина","full_address":"Львов, Львовская область, Украина, 79000","hash":"cc665e099a2be8d502542f31f77c9566"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("55.755826", "37.6173"),
+      position: new google.maps.LatLng("49.422983", "26.987133099999937"),
     });
 
-    bindInfoWindow(marker, {"query":"moscow, russia","lat":"55.755826","lng":"37.6173","country":"Russia","full_address":"Moscow, Russia","guide":"Moscow.md","hash":"27306e164ef2b5d5e7ab108067d9c5ed"});
+    bindInfoWindow(marker, {"query":"Хмельницкий","lat":"49.422983","lng":"26.987133099999937","country":"Украина","full_address":"Хмельницкий, Хмельницкая область, Украина, 29000","hash":"28f659372992476629efcb05da38bdda"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("43.653226", "-79.38318429999998"),
+      position: new google.maps.LatLng("48.464717", "35.04618299999993"),
     });
 
-    bindInfoWindow(marker, {"query":"toronto, ON","lat":"43.653226","lng":"-79.38318429999998","country":"Canada","full_address":"Toronto, ON, Canada","guide":"Toronto.md","hash":"22a4da85868eeb5bcbf86e4030b51148"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("43.0895577", "-79.08494359999997"),
-    });
-
-    bindInfoWindow(marker, {"query":"niagara falls, ON","lat":"43.0895577","lng":"-79.08494359999997","country":"Canada","full_address":"Niagara Falls, ON, Canada","hash":"cff7ff046ba38933359f2310c117097f"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("32.715738", "-117.16108380000003"),
-    });
-
-    bindInfoWindow(marker, {"query":"san diego, CA","lat":"32.715738","lng":"-117.16108380000003","country":"United States","full_address":"San Diego, CA, USA","hash":"a9d7115327cb8f0f585fbb57f5185151"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("39.0997265", "-94.57856670000001"),
-    });
-
-    bindInfoWindow(marker, {"query":"kansas city","lat":"39.0997265","lng":"-94.57856670000001","country":"United States","full_address":"Kansas City, MO, USA","hash":"5fd59b1d789a79f62fe25ca6f82f6580"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("41.3850639", "2.1734034999999494"),
-    });
-
-    bindInfoWindow(marker, {"query":"barcelona, spain","lat":"41.3850639","lng":"2.1734034999999494","country":"Spain","full_address":"Barcelona, Spain","guide":"Barcelona.md","hash":"311201ee2a5324cbf19c80a99289c901"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("41.9027835", "12.496365500000024"),
-    });
-
-    bindInfoWindow(marker, {"query":"rome, italy","lat":"41.9027835","lng":"12.496365500000024","country":"Italy","full_address":"Rome, Italy","hash":"295d25e0713c68c6861b516a9ced70f5"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("45.4654219", "9.18592430000001"),
-    });
-
-    bindInfoWindow(marker, {"query":"milan, italy","lat":"45.4654219","lng":"9.18592430000001","country":"Italy","full_address":"Milan, Italy","hash":"4afb7d3a6006a2404c156990519da1f4"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("47.3768866", "8.541694000000007"),
-    });
-
-    bindInfoWindow(marker, {"query":"zurich, switzerland","lat":"47.3768866","lng":"8.541694000000007","country":"Switzerland","full_address":"Zürich, Switzerland","hash":"386ee8c7e7f181ddb76d776d8f60ff60"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("52.3702157", "4.895167899999933"),
-    });
-
-    bindInfoWindow(marker, {"query":"amsterdam, neitherlands","lat":"52.3702157","lng":"4.895167899999933","country":"Netherlands","full_address":"Amsterdam, Netherlands","guide":"Amsterdam.md","hash":"8d6578cfce22d7642e5f4ea1d8c2f562"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("53.5510846", "9.99368179999999"),
-    });
-
-    bindInfoWindow(marker, {"query":"hamburg, germany","lat":"53.5510846","lng":"9.99368179999999","country":"Germany","full_address":"Hamburg, Germany","hash":"750d52a06013f1f6ba2082f3568fa583"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("55.604981", "13.003822000000014"),
-    });
-
-    bindInfoWindow(marker, {"query":"malmo, sweden","lat":"55.604981","lng":"13.003822000000014","country":"Sweden","full_address":"Malmö, Sweden","hash":"574b0e77aa8b1bff7ef249cb83e4741d"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("1.352083", "103.81983600000001"),
-    });
-
-    bindInfoWindow(marker, {"query":"singapore","lat":"1.352083","lng":"103.81983600000001","country":"Singapore","full_address":"Singapore","guide":"Singapore.md","hash":"fb5b784bc87dcf0b0da4e2703ad63a4b"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("9.731875299999999", "100.01359290000005"),
-    });
-
-    bindInfoWindow(marker, {"query":"koh pangan, thailand","lat":"9.731875299999999","lng":"100.01359290000005","country":"Thailand","full_address":"Ko Pha Ngan, Ko Pha-ngan District, Surat Thani 84280, Thailand","hash":"9494969e61ed6b499842ba395fea951c"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("13.7563309", "100.50176510000006"),
-    });
-
-    bindInfoWindow(marker, {"query":"bangkok, thailand","lat":"13.7563309","lng":"100.50176510000006","country":"Thailand","full_address":"Bangkok, Thailand","hash":"9f8d3d672db073e0149745ad34d622c4"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("22.198745", "113.54387300000008"),
-    });
-
-    bindInfoWindow(marker, {"query":"macao","lat":"22.198745","lng":"113.54387300000008","country":"Macau","full_address":"Macau","hash":"db7b649ea14a2db9098e321daf12c82a"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("22.396428", "114.10949700000003"),
-    });
-
-    bindInfoWindow(marker, {"query":"hong kong","lat":"22.396428","lng":"114.10949700000003","country":"Hong Kong","full_address":"Hong Kong","hash":"79b9390f2d340487587cf8b1c1f9694a"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("48.2081743", "16.37381890000006"),
-    });
-
-    bindInfoWindow(marker, {"query":"vienna, austria","lat":"48.2081743","lng":"16.37381890000006","country":"Austria","full_address":"Vienna, Austria","guide":"Vienna.md","hash":"6c282f02bb325ddba9d9b33bc6435a29"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("47.497912", "19.04023499999994"),
-    });
-
-    bindInfoWindow(marker, {"query":"budapest, hungary","lat":"47.497912","lng":"19.04023499999994","country":"Hungary","full_address":"Budapest, Hungary","guide":"Budapest.md","hash":"431b8642dcab370e45c8646bcec659da"});
+    bindInfoWindow(marker, {"query":"Днипро","lat":"48.464717","lng":"35.04618299999993","country":"Украина","full_address":"Днипро, Днепропетровская область, Украина, 49000","hash":"591d7121ea60258052a73831a2b0dd48"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
@@ -486,250 +234,61 @@ function initMap() {
       position: new google.maps.LatLng("46.482526", "30.723309500000028"),
     });
 
-    bindInfoWindow(marker, {"query":"odessa, ukraine","lat":"46.482526","lng":"30.723309500000028","country":"Ukraine","full_address":"Odessa, Odessa Oblast, Ukraine","hash":"5af32a46a9a355d8c9055e160d5ab077"});
+    bindInfoWindow(marker, {"query":"Одесса","lat":"46.482526","lng":"30.723309500000028","country":"Украина","full_address":"Одесса, Одесская область, Украина, 65000","hash":"5af32a46a9a355d8c9055e160d5ab077"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("40.4167754", "-3.7037901999999576"),
+      position: new google.maps.LatLng("52.4411761", "30.98784610000007"),
     });
 
-    bindInfoWindow(marker, {"query":"madrid, spain","lat":"40.4167754","lng":"-3.7037901999999576","country":"Spain","full_address":"Madrid, Spain","hash":"a98d09df69dfc955c53ad01707b55501"});
+    bindInfoWindow(marker, {"query":"Гомель","lat":"52.4411761","lng":"30.98784610000007","country":"Беларусь","full_address":"Гомель, Беларусь","hash":"cb1a8e27ba292dff3c71499225a29de1"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("50.62925", "3.057256000000052"),
+      position: new google.maps.LatLng("50.26489189999999", "19.02378150000004"),
     });
 
-    bindInfoWindow(marker, {"query":"lille, france","lat":"50.62925","lng":"3.057256000000052","country":"France","full_address":"Lille, France","hash":"d874dda7406ca4f502dfc1e22db3b7b0"});
+    bindInfoWindow(marker, {"query":"Катовице","lat":"50.26489189999999","lng":"19.02378150000004","country":"Польша","full_address":"Катовице, Польша","hash":"567fa854fba11ceafb3bb1896af62b19"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("52.3758916", "9.732010400000036"),
+      position: new google.maps.LatLng("52.2296756", "21.012228700000037"),
     });
 
-    bindInfoWindow(marker, {"query":"hanover, germany","lat":"52.3758916","lng":"9.732010400000036","country":"Germany","full_address":"Hanover, Germany","hash":"81deb3a07556a7c890011843952262dc"});
+    bindInfoWindow(marker, {"query":"Варшава","lat":"52.2296756","lng":"21.012228700000037","country":"Польша","full_address":"Варшава, Польша","hash":"0b6d5786eb82f6a808f5e50cfd192153"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("52.09762139999999", "23.734050300000035"),
+      position: new google.maps.LatLng("53.4285438", "14.552811600000041"),
     });
 
-    bindInfoWindow(marker, {"query":"brest, belarus","lat":"52.09762139999999","lng":"23.734050300000035","country":"Belarus","full_address":"Brest, Belarus","hash":"109b60d39ff7dc4f11e88b77d7726868"});
+    bindInfoWindow(marker, {"query":"Щецин","lat":"53.4285438","lng":"14.552811600000041","country":"Польша","full_address":"Щецин, Польша","hash":"bab0402de159e98fbe0355544c2d3bac"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("45.4215296", "-75.69719309999999"),
+      position: new google.maps.LatLng("54.35202520000001", "18.64663840000003"),
     });
 
-    bindInfoWindow(marker, {"query":"ottawa, ON","lat":"45.4215296","lng":"-75.69719309999999","country":"Canada","full_address":"Ottawa, ON, Canada","guide":"Ottawa.md","hash":"168d3a866d171a4565b8d3705ff8a049"});
+    bindInfoWindow(marker, {"query":"Гданьск","lat":"54.35202520000001","lng":"18.64663840000003","country":"Польша","full_address":"Гданьск, Польша","hash":"5fab86514b1b33d352a3dc42f83893a1"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("45.5016889", "-73.56725599999999"),
+      position: new google.maps.LatLng("52.406374", "16.925168100000064"),
     });
 
-    bindInfoWindow(marker, {"query":"montreal, QC","lat":"45.5016889","lng":"-73.56725599999999","country":"Canada","full_address":"Montreal, QC, Canada","guide":"Montreal.md","hash":"5a433d21be27954592ea5347e5ec1eed"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("33.7489954", "-84.3879824"),
-    });
-
-    bindInfoWindow(marker, {"query":"atlanta, GA","lat":"33.7489954","lng":"-84.3879824","country":"United States","full_address":"Atlanta, GA, USA","hash":"d59a7c1196d21f94e00404346f10e674"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("-33.9248685", "18.424055299999964"),
-    });
-
-    bindInfoWindow(marker, {"query":"Cape Town","lat":"-33.9248685","lng":"18.424055299999964","country":"South Africa","full_address":"Cape Town, South Africa","hash":"51e8ac227b6a16e438237937661cf612"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("-34.3568425", "18.473988200000008"),
-    });
-
-    bindInfoWindow(marker, {"query":"cape of good hope south africa","lat":"-34.3568425","lng":"18.473988200000008","country":"South Africa","full_address":"Cape of Good Hope, Cape Point Rd, Cape Town, 8001, South Africa","hash":"6830437ee8b96559c09a86d813fc2b54"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("20.653407", "-105.2253316"),
-    });
-
-    bindInfoWindow(marker, {"query":"puerto vallarta","lat":"20.653407","lng":"-105.2253316","country":"Mexico","full_address":"Puerto Vallarta, Jalisco, Mexico","hash":"600ca1ad213a52aff52e0acbda350d6f"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("46.8138783", "-71.2079809"),
-    });
-
-    bindInfoWindow(marker, {"query":"quebec city","lat":"46.8138783","lng":"-71.2079809","country":"Canada","full_address":"Québec City, QC, Canada","hash":"f41eb1ae98927061de29dc6b9ebbdf8d"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("48.6517071", "-72.44897759999998"),
-    });
-
-    bindInfoWindow(marker, {"query":"saint felicien","lat":"48.6517071","lng":"-72.44897759999998","country":"Canada","full_address":"Saint-Félicien, QC, Canada","hash":"748eb70e62e4e8dbd7c6c1a4871ccbd4"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("59.43696079999999", "24.75357459999998"),
-    });
-
-    bindInfoWindow(marker, {"query":"tallinn, estonia","lat":"59.43696079999999","lng":"24.75357459999998","country":"Estonia","full_address":"Tallinn, Estonia","hash":"436e5ba09b0bc9ea6cc2c4636dd5ef31"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("50.8503463", "4.351721099999963"),
-    });
-
-    bindInfoWindow(marker, {"query":"brussels, belgium","lat":"50.8503463","lng":"4.351721099999963","country":"Belgium","full_address":"Brussels, Belgium","hash":"f5dbe91733f75ae6d2ed27140e23aa5d"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("51.209348", "3.2246995000000425"),
-    });
-
-    bindInfoWindow(marker, {"query":"bruges, belgium","lat":"51.209348","lng":"3.2246995000000425","country":"Belgium","full_address":"Bruges, Belgium","hash":"c6e4a8686a08d8fecbb6a3c9ea332cce"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("51.9244201", "4.477732500000002"),
-    });
-
-    bindInfoWindow(marker, {"query":"rotterdam","lat":"51.9244201","lng":"4.477732500000002","country":"Netherlands","full_address":"Rotterdam, Netherlands","hash":"2edfbe939b86aa4e32bf2f04510d9da1"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("36.5270612", "-6.288596200000029"),
-    });
-
-    bindInfoWindow(marker, {"query":"cadiz, spain","lat":"36.5270612","lng":"-6.288596200000029","country":"Spain","full_address":"Cádiz, Spain","hash":"c66624ee230a80e0e5b93c4cada625fe"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("37.3890924", "-5.984458899999936"),
-    });
-
-    bindInfoWindow(marker, {"query":"seville, spain","lat":"37.3890924","lng":"-5.984458899999936","country":"Spain","full_address":"Seville, Sevilla, Spain","hash":"90b96994d26ed56c207cc7e31a927e76"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("37.1773363", "-3.5985570999999936"),
-    });
-
-    bindInfoWindow(marker, {"query":"granada, spain","lat":"37.1773363","lng":"-3.5985570999999936","country":"Spain","full_address":"Granada, Spain","hash":"6fba12fb6459b9dbb5c20563989aad98"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("42.66026799999999", "44.641143000000056"),
-    });
-
-    bindInfoWindow(marker, {"query":"kazbegi, georgia","lat":"42.66026799999999","lng":"44.641143000000056","country":"Georgia","full_address":"Stepantsminda, Georgia","hash":"9d0484ed155613f1a3196fdd9005927f"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("56.11676629999999", "47.262782000000016"),
-    });
-
-    bindInfoWindow(marker, {"query":"cheboksary, russia","lat":"56.11676629999999","lng":"47.262782000000016","country":"Russia","full_address":"Cheboksary, Chuvashia Republic, Russia","hash":"03ff6407c44fbc0fa6f5af46096376ed"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("53.2415041", "50.22124629999996"),
-    });
-
-    bindInfoWindow(marker, {"query":"samara, russia","lat":"53.2415041","lng":"50.22124629999996","country":"Russia","full_address":"Samara, Samara Oblast, Russia","hash":"d7cb809bdabf380f808283fad084cdc8"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("51.5073509", "-0.12775829999998223"),
-    });
-
-    bindInfoWindow(marker, {"query":"London, UK","lat":"51.5073509","lng":"-0.12775829999998223","country":"United Kingdom","full_address":"London, UK","hash":"dc747dbda4df0c1b45cbb1a9db608cf4"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("48.1485965", "17.107747700000004"),
-    });
-
-    bindInfoWindow(marker, {"query":"Bratislava, Slovakia","lat":"48.1485965","lng":"17.107747700000004","country":"Slovakia","full_address":"Bratislava, Slovakia","hash":"cdcd2af93451327cd9e565a2b32a791a"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("47.80949", "13.055010000000038"),
-    });
-
-    bindInfoWindow(marker, {"query":"Salzburg, Austria","lat":"47.80949","lng":"13.055010000000038","country":"Austria","full_address":"Salzburg, Austria","hash":"6de6176b8ac6a14ce6f661fbb7df6036"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("51.1783629", "-115.57076940000002"),
-    });
-
-    bindInfoWindow(marker, {"query":"Banff, Canada","lat":"51.1783629","lng":"-115.57076940000002","country":"Canada","full_address":"Banff, AB, Canada","hash":"07beff5059edfd9801b971f17a43145e"});
-    bounds.extend(marker.position);
-  
-    var marker = new google.maps.Marker({
-      map: map,
-      icon: markerIcon(),
-      position: new google.maps.LatLng("51.0486151", "-114.0708459"),
-    });
-
-    bindInfoWindow(marker, {"query":"Calgary, Canada","lat":"51.0486151","lng":"-114.0708459","country":"Canada","full_address":"Calgary, AB, Canada","hash":"d3f46789f16a8609aefab63cfc8be3a0"});
+    bindInfoWindow(marker, {"query":"Познань","lat":"52.406374","lng":"16.925168100000064","country":"Польша","full_address":"Познань, Польша","hash":"77be0777a90b351cb4e79830726733c5"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
@@ -738,160 +297,727 @@ function initMap() {
       position: new google.maps.LatLng("51.0504088", "13.737262099999953"),
     });
 
-    bindInfoWindow(marker, {"query":"Dresden, Germany","lat":"51.0504088","lng":"13.737262099999953","country":"Germany","full_address":"Dresden, Germany","hash":"185bec3764cf097abeedb919ecfafb01"});
+    bindInfoWindow(marker, {"query":"Дрезден","lat":"51.0504088","lng":"13.737262099999953","country":"Германия","full_address":"Дрезден, Германия","hash":"185bec3764cf097abeedb919ecfafb01"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("41.0082376", "28.97835889999999"),
+      position: new google.maps.LatLng("44.49520500000001", "34.166300999999976"),
     });
 
-    bindInfoWindow(marker, {"query":"Istanbul, Turkey","lat":"41.0082376","lng":"28.97835889999999","country":"Turkey","full_address":"Istanbul, İstanbul, Turkey","hash":"f477c5f75986c096c5e2cdab65c957fe"});
+    bindInfoWindow(marker, {"query":"Ялта","lat":"44.49520500000001","lng":"34.166300999999976","country":"undefined","full_address":"Ялта","hash":"b8c596e4c0da65254ca3020e7075a3f1"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("45.8150108", "15.981918899999982"),
+      position: new google.maps.LatLng("44.952117", "34.10241700000006"),
     });
 
-    bindInfoWindow(marker, {"query":"Zagreb, Croatia","lat":"45.8150108","lng":"15.981918899999982","country":"Croatia","full_address":"Zagreb, Croatia","hash":"23a1e80501f6370af75e10d628b1ce8e"});
+    bindInfoWindow(marker, {"query":"Симферополь","lat":"44.952117","lng":"34.10241700000006","country":"undefined","full_address":"Симферополь","hash":"43c4a353f0265524dfe870fa20fe864b"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("46.0569465", "14.505751499999974"),
+      position: new google.maps.LatLng("44.829819", "34.91508399999998"),
     });
 
-    bindInfoWindow(marker, {"query":"Ljubjana, Slovenia","lat":"46.0569465","lng":"14.505751499999974","country":"Slovenia","full_address":"Ljubljana, Slovenia","hash":"c0526e2da4d8ad19a6a6608c9dd12f8d"});
+    bindInfoWindow(marker, {"query":"Нов. Свет","lat":"44.829819","lng":"34.91508399999998","country":"undefined","full_address":"Нов. Свет","hash":"766581dc9972ba54659c478b3263d893"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("45.54805899999999", "13.730187699999988"),
+      position: new google.maps.LatLng("44.54844809999999", "34.28418609999994"),
     });
 
-    bindInfoWindow(marker, {"query":"Koper, Slovenia","lat":"45.54805899999999","lng":"13.730187699999988","country":"Slovenia","full_address":"6000 Koper, Slovenia","hash":"7ff4ac09056f32b35540ce659e289d8b"});
+    bindInfoWindow(marker, {"query":"Гурзуф","lat":"44.54844809999999","lng":"34.28418609999994","country":"undefined","full_address":"Гурзуф","hash":"4180c82d25ad1bd6eb9d1496fbae0460"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("45.4408474", "12.31551509999997"),
+      position: new google.maps.LatLng("46.369247", "35.34163169999999"),
     });
 
-    bindInfoWindow(marker, {"query":"Venice, Italy","lat":"45.4408474","lng":"12.31551509999997","country":"Italy","full_address":"Venice, Metropolitan City of Venice, Italy","hash":"585c428fe3537363bba49790ef43cd35"});
+    bindInfoWindow(marker, {"query":"Кирилловка","lat":"46.369247","lng":"35.34163169999999","country":"Украина","full_address":"Кирилловка, Запорожская область, Украина","hash":"b677ec0ef78295bc947dffc5396726a8"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("45.6495264", "13.77681819999998"),
+      position: new google.maps.LatLng("46.8550216", "35.35869960000002"),
     });
 
-    bindInfoWindow(marker, {"query":"Trieste, Italy","lat":"45.6495264","lng":"13.77681819999998","country":"Italy","full_address":"Trieste, Province of Trieste, Italy","hash":"114bc749b245733037f694d94dc36647"});
+    bindInfoWindow(marker, {"query":"Мелитополь","lat":"46.8550216","lng":"35.35869960000002","country":"Украина","full_address":"Мелитополь, Запорожская область, Украина, 72300","hash":"68e97a20224aafed58ee36e2a8e8c4b2"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("54.6095418", "39.71258569999998"),
+      position: new google.maps.LatLng("46.2089015", "30.561407400000007"),
     });
 
-    bindInfoWindow(marker, {"query":"Ryazan, Russia","lat":"54.6095418","lng":"39.71258569999998","country":"Russia","full_address":"Ryazan, Ryazan Oblast, Russia","hash":"7265011f43860a3776a750e30cfb1b28"});
+    bindInfoWindow(marker, {"query":"Грибовка","lat":"46.2089015","lng":"30.561407400000007","country":"Украина","full_address":"Грибовка, Одесская область, Украина, 67842","hash":"bac3ebf971fe32b0b2ee9f01ee09a5dc"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("53.3498053", "-6.260309699999993"),
+      position: new google.maps.LatLng("51.2409432", "33.20505209999999"),
     });
 
-    bindInfoWindow(marker, {"query":"Dublin","lat":"53.3498053","lng":"-6.260309699999993","country":"Ireland","full_address":"Dublin, Ireland","hash":"af1c24be6bf243f7a930849533863f22"});
+    bindInfoWindow(marker, {"query":"Конотоп","lat":"51.2409432","lng":"33.20505209999999","country":"Украина","full_address":"Конотоп, Сумская область, Украина, 41600","hash":"b5af85405df754f5ddf15f61d31c7683"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("51.38964600000001", "1.386833900000056"),
+      position: new google.maps.LatLng("51.3345739", "33.86468339999999"),
     });
 
-    bindInfoWindow(marker, {"query":"Margate, UK","lat":"51.38964600000001","lng":"1.386833900000056","country":"United Kingdom","full_address":"Margate, UK","hash":"a2197869485b3837a1099a8f66c96bb1"});
+    bindInfoWindow(marker, {"query":"Путивль","lat":"51.3345739","lng":"33.86468339999999","country":"Украина","full_address":"Путивль, Сумская область, Украина","hash":"1cee558246fd0f968195fe2b5afe63bc"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("53.07929619999999", "8.801693600000021"),
+      position: new google.maps.LatLng("51.14940199999999", "34.317522499999995"),
     });
 
-    bindInfoWindow(marker, {"query":"Bremen","lat":"53.07929619999999","lng":"8.801693600000021","country":"Germany","full_address":"Bremen, Germany","hash":"48953727c4b30f12d26a0a0935513d2c"});
+    bindInfoWindow(marker, {"query":"Белополье","lat":"51.14940199999999","lng":"34.317522499999995","country":"Украина","full_address":"Белополье, Сумская область, Украина, 41801","hash":"d2431381e45c67689357e439f3ef1e95"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("44.119371", "15.231364799999938"),
+      position: new google.maps.LatLng("51.1657844", "34.2327186"),
     });
 
-    bindInfoWindow(marker, {"query":"Zadar, Croatia","lat":"44.119371","lng":"15.231364799999938","country":"Croatia","full_address":"Zadar, Croatia","hash":"441006793e241623ae1e05e54b9c91a3"});
+    bindInfoWindow(marker, {"query":"Ворожба","lat":"51.1657844","lng":"34.2327186","country":"Украина","full_address":"Ворожба, Сумская область, Украина, 41811","hash":"95cf10f32b2edcf592edb89abbfc9103"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("43.6158299", "13.518914999999993"),
+      position: new google.maps.LatLng("51.6708844", "33.9078925"),
     });
 
-    bindInfoWindow(marker, {"query":"Ancona, Italy","lat":"43.6158299","lng":"13.518914999999993","country":"Italy","full_address":"Ancona, Province of Ancona, Italy","hash":"ee5138441ac0f399149ca8cf7abbf386"});
+    bindInfoWindow(marker, {"query":"Глухов","lat":"51.6708844","lng":"33.9078925","country":"Украина","full_address":"Глухов, Сумская область, Украина","hash":"12c75b299e9532861e0ddb35d8771fe9"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("43.94236", "12.457776999999965"),
+      position: new google.maps.LatLng("51.8757044", "33.49661519999995"),
     });
 
-    bindInfoWindow(marker, {"query":"San Marino","lat":"43.94236","lng":"12.457776999999965","country":"San Marino","full_address":"San Marino","hash":"9469a7ee6c448cafa886112490455f57"});
+    bindInfoWindow(marker, {"query":"Шостка","lat":"51.8757044","lng":"33.49661519999995","country":"Украина","full_address":"Шостка, Сумская область, Украина, 41100","hash":"c6bc799fd16935bf3a62672492d80caf"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("31.6294723", "-7.981084499999952"),
+      position: new google.maps.LatLng("50.7415087", "33.48095260000002"),
     });
 
-    bindInfoWindow(marker, {"query":"Marakesh","lat":"31.6294723","lng":"-7.981084499999952","country":"Morocco","full_address":"Marrakesh, Morocco","hash":"18acdca549c61ecae28698763e1afc41"});
+    bindInfoWindow(marker, {"query":"Ромны","lat":"50.7415087","lng":"33.48095260000002","country":"Украина","full_address":"Ромны, Сумская область, Украина, 42004","hash":"bcbff960238d606dfaf8e93699354d17"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("33.5731104", "-7.589843400000063"),
+      position: new google.maps.LatLng("50.2394849", "32.50709269999993"),
     });
 
-    bindInfoWindow(marker, {"query":"Casablanca","lat":"33.5731104","lng":"-7.589843400000063","country":"Morocco","full_address":"Casablanca, Morocco","hash":"2110a4ebfff62ff793f69f817d6e658e"});
+    bindInfoWindow(marker, {"query":"Пирятин","lat":"50.2394849","lng":"32.50709269999993","country":"Украина","full_address":"Пирятин, Полтавская область, Украина","hash":"b81150a448ed55446c74d0ffaf148973"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("33.9715904", "-6.849812899999961"),
+      position: new google.maps.LatLng("50.5884714", "32.38758250000001"),
     });
 
-    bindInfoWindow(marker, {"query":"Rabat","lat":"33.9715904","lng":"-6.849812899999961","country":"Morocco","full_address":"Rabat, Morocco","hash":"893bdbca1cd910a2b47b5f07e63ddbe4"});
+    bindInfoWindow(marker, {"query":"Прилуки","lat":"50.5884714","lng":"32.38758250000001","country":"Украина","full_address":"Прилуки, Черниговская область, Украина","hash":"a7c7fe1cc4199f3dd5f0d96a4f61aa32"});
     bounds.extend(marker.position);
   
     var marker = new google.maps.Marker({
       map: map,
       icon: markerIcon(),
-      position: new google.maps.LatLng("34.0181246", "-5.00784509999994"),
+      position: new google.maps.LatLng("50.5837638", "34.490464299999985"),
     });
 
-    bindInfoWindow(marker, {"query":"Fes, Morocco","lat":"34.0181246","lng":"-5.00784509999994","country":"Morocco","full_address":"Fes, Morocco","hash":"0c35d05d01e1e7dd210ff09fd714d26b"});
+    bindInfoWindow(marker, {"query":"Лебедин","lat":"50.5837638","lng":"34.490464299999985","country":"Украина","full_address":"Лебедин, Сумская область, Украина","hash":"a4ae1b17cb4058590e457fe04ede6a07"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("50.3150962", "34.90056440000001"),
+    });
+
+    bindInfoWindow(marker, {"query":"Ахтырка","lat":"50.3150962","lng":"34.90056440000001","country":"Украина","full_address":"Ахтырка, Сумская область, Украина, 42700","hash":"099bb05ea5f059780a1592c5f82cbe89"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("50.8305647", "33.881526099999974"),
+    });
+
+    bindInfoWindow(marker, {"query":"Недригайлов","lat":"50.8305647","lng":"33.881526099999974","country":"Украина","full_address":"Недригайлов, Сумская область, Украина","hash":"312d2101f83c9e75dd2f4d82935a26c6"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("48.6967162", "26.58253639999998"),
+    });
+
+    bindInfoWindow(marker, {"query":"Камьянец-Подольский","lat":"48.6967162","lng":"26.58253639999998","country":"Украина","full_address":"Каменец-Подольский, Хмельницкая область, Украина","hash":"4dbc307874c92d6f9c6e36999e27ebd2"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("54.3519967", "13.363049100000012"),
+    });
+
+    bindInfoWindow(marker, {"query":"Рюген","lat":"54.3519967","lng":"13.363049100000012","country":"Германия","full_address":"Рюген, Германия","hash":"42231f841d0855eec3d19875d1cfc70b"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("51.5135872", "7.465298100000041"),
+    });
+
+    bindInfoWindow(marker, {"query":"Дортмунд","lat":"51.5135872","lng":"7.465298100000041","country":"Германия","full_address":"Дортмунд, Германия","hash":"87e6754aea62fdecda7724fc9a3b8f20"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("51.4556432", "7.011555199999975"),
+    });
+
+    bindInfoWindow(marker, {"query":"Эссен","lat":"51.4556432","lng":"7.011555199999975","country":"Германия","full_address":"Эссен, Германия","hash":"ea409788dc72a86c7bc4de2162512aaa"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("51.2277411", "6.773455600000034"),
+    });
+
+    bindInfoWindow(marker, {"query":"Дюссельдорф","lat":"51.2277411","lng":"6.773455600000034","country":"Германия","full_address":"Дюссельдорф, Германия","hash":"5c660aa739a2d528e90c47965694c217"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("50.937531", "6.960278600000038"),
+    });
+
+    bindInfoWindow(marker, {"query":"Кёльн","lat":"50.937531","lng":"6.960278600000038","country":"Германия","full_address":"Кёльн, Германия","hash":"bb4acfca904f04ee336b38b4513cbfb9"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("50.73743", "7.098206800000071"),
+    });
+
+    bindInfoWindow(marker, {"query":"Бонн","lat":"50.73743","lng":"7.098206800000071","country":"Германия","full_address":"Бонн, Германия","hash":"633cab2d24f8150e6050996ea0d7d30c"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("50.1109221", "8.682126700000026"),
+    });
+
+    bindInfoWindow(marker, {"query":"Франкфурт-на-Майне","lat":"50.1109221","lng":"8.682126700000026","country":"Германия","full_address":"Франкфурт-на-Майне, Германия","hash":"914851580f4f62a7ce83a4a8dc7bf560"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("49.9928617", "8.247252600000024"),
+    });
+
+    bindInfoWindow(marker, {"query":"Майнц","lat":"49.9928617","lng":"8.247252600000024","country":"Германия","full_address":"Майнц, Германия","hash":"6ded890cfd4346dba36a58220e7dba38"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("49.79130439999999", "9.953354799999943"),
+    });
+
+    bindInfoWindow(marker, {"query":"Вюрцбург","lat":"49.79130439999999","lng":"9.953354799999943","country":"Германия","full_address":"Вюрцбург, Германия","hash":"7d54e6636028969e7da5d512f872a03c"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("49.3801834", "10.186738800000057"),
+    });
+
+    bindInfoWindow(marker, {"query":"Ротенбург-об-дер-Таубер","lat":"49.3801834","lng":"10.186738800000057","country":"Германия","full_address":"Ротенбург-об-дер-Таубер, Германия","hash":"5b6682867f0c3318bdef9316478fc6b5"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("48.7758459", "9.182932100000016"),
+    });
+
+    bindInfoWindow(marker, {"query":"Штутгарт","lat":"48.7758459","lng":"9.182932100000016","country":"Германия","full_address":"Штутгарт, Германия","hash":"22aa4f044d34e54f6812fd085f7f9dcb"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("49.0068901", "8.403652700000066"),
+    });
+
+    bindInfoWindow(marker, {"query":"Карлсрюэ","lat":"49.0068901","lng":"8.403652700000066","country":"Германия","full_address":"Карлсруэ, Германия","hash":"cc2ecbabad8d47e7affe24ad2b1385d1"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("48.1351253", "11.581980499999986"),
+    });
+
+    bindInfoWindow(marker, {"query":"Мюнхен","lat":"48.1351253","lng":"11.581980499999986","country":"Германия","full_address":"Мюнхен, Германия","hash":"6ee37b2a2b560ffa35a5dde4cd96e426"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("47.9837999", "10.180188300000054"),
+    });
+
+    bindInfoWindow(marker, {"query":"Мемминген","lat":"47.9837999","lng":"10.180188300000054","country":"Германия","full_address":"87700 Мемминген, Германия","hash":"f710f8b12c306b1619f0ab9787906f36"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("47.5797815", "9.67893330000004"),
+    });
+
+    bindInfoWindow(marker, {"query":"Линдау","lat":"47.5797815","lng":"9.67893330000004","country":"Германия","full_address":"88131 Линдау, Германия","hash":"2999c689db84e53e711be4ff1290801d"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("47.5213614", "11.281795800000054"),
+    });
+
+    bindInfoWindow(marker, {"query":"Вальгау","lat":"47.5213614","lng":"11.281795800000054","country":"Германия","full_address":"82499 Вальгау, Германия","hash":"8c1cb7b2cf52ed7de74ddb3fb39632e1"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("47.5541796", "12.978374400000007"),
+    });
+
+    bindInfoWindow(marker, {"query":"Кёнигсзе","lat":"47.5541796","lng":"12.978374400000007","country":"Германия","full_address":"Кёнигсзе, 83471 Шёнау-ам-Кёнигсзе, Германия","hash":"12047104c6d077f7a34e65f1c76bc3b6"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("47.60650769999999", "12.85371239999995"),
+    });
+
+    bindInfoWindow(marker, {"query":"Hintersee","lat":"47.60650769999999","lng":"12.85371239999995","country":"Германия","full_address":"Озеро Хинтер, 83486 Рамзау, Германия","hash":"c1849c1fa1c0d3ddabdb05698cfaf489"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("47.8709042", "12.453737499999988"),
+    });
+
+    bindInfoWindow(marker, {"query":"Химзе","lat":"47.8709042","lng":"12.453737499999988","country":"Германия","full_address":"Озеро Хим, Германия","hash":"13796419e5b1adfb95952797b367cff0"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("50.9588487", "14.083300399999985"),
+    });
+
+    bindInfoWindow(marker, {"query":"Ратен","lat":"50.9588487","lng":"14.083300399999985","country":"Германия","full_address":"Ратен, Германия","hash":"6aecdeb5a8ebd29371d57d0d43e7a1d7"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("52.3472237", "14.550567199999932"),
+    });
+
+    bindInfoWindow(marker, {"query":"Франкфурт Одер","lat":"52.3472237","lng":"14.550567199999932","country":"Германия","full_address":"Франкфурт, Германия","hash":"350ae0ccb5ba6c7bf779fa6be2d4a45e"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("52.481592", "13.837397099999976"),
+    });
+
+    bindInfoWindow(marker, {"query":"Рюдерсдорф","lat":"52.481592","lng":"13.837397099999976","country":"Германия","full_address":"Рюдерсдорф, Германия","hash":"0cff18329be3d2063385bea0618d1389"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("52.5659128", "13.877754600000003"),
+    });
+
+    bindInfoWindow(marker, {"query":"Штраусберг","lat":"52.5659128","lng":"13.877754600000003","country":"Германия","full_address":"Штраусберг, Германия","hash":"f6523b19a12ea6267cb5e0ce8b62c748"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("52.7537284", "13.23668090000001"),
+    });
+
+    bindInfoWindow(marker, {"query":"Ораниенбург","lat":"52.7537284","lng":"13.23668090000001","country":"Германия","full_address":"Ораниенбург, Германия","hash":"0c6a58286a7bfe9ec42f783ff1dd0b1d"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("52.3905689", "13.064472900000055"),
+    });
+
+    bindInfoWindow(marker, {"query":"Потсдам","lat":"52.3905689","lng":"13.064472900000055","country":"Германия","full_address":"Потсдам, Германия","hash":"f78ebe1fe219ff12b654058a8a50fb3a"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("51.835031", "14.14557590000004"),
+    });
+
+    bindInfoWindow(marker, {"query":"Spreewald","lat":"51.835031","lng":"14.14557590000004","country":"Германия","full_address":"Bahnhofstraße 15, 03096 Burg (Spreewald), Германия","hash":"88c55176c4de70e05186b269306a9980"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("49.815273", "6.129583000000025"),
+    });
+
+    bindInfoWindow(marker, {"query":"Люксембург","lat":"49.815273","lng":"6.129583000000025","country":"Люксембург","full_address":"Люксембург","hash":"772e816e3634a853771eced016ac3200"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("47.05016819999999", "8.309307200000035"),
+    });
+
+    bindInfoWindow(marker, {"query":"Люцерн","lat":"47.05016819999999","lng":"8.309307200000035","country":"Швейцария","full_address":"Люцерн, Швейцария","hash":"6fcb5b7850d33fc0eed08191b45762b5"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("47.3768866", "8.541694000000007"),
+    });
+
+    bindInfoWindow(marker, {"query":"Цюрих","lat":"47.3768866","lng":"8.541694000000007","country":"Швейцария","full_address":"Цюрих, Швейцария","hash":"386ee8c7e7f181ddb76d776d8f60ff60"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("45.976575", "7.6584519000000455"),
+    });
+
+    bindInfoWindow(marker, {"query":"Матерхорн","lat":"45.976575","lng":"7.6584519000000455","country":"undefined","full_address":"Маттерхорн","hash":"191f674065b7339f6f017d16ef246e7c"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("46.0207133", "7.749117000000069"),
+    });
+
+    bindInfoWindow(marker, {"query":"Церматт","lat":"46.0207133","lng":"7.749117000000069","country":"Швейцария","full_address":"3920 Церматт, Швейцария","hash":"815cf9d1f18d63925ed3c79b54f292a2"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("47.2692124", "11.404102400000056"),
+    });
+
+    bindInfoWindow(marker, {"query":"Инсбрук","lat":"47.2692124","lng":"11.404102400000056","country":"Австрия","full_address":"Иннсбрук, Австрия","hash":"15bf82f671c987b1ba53e7a0319607c1"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("47.80949", "13.055010000000038"),
+    });
+
+    bindInfoWindow(marker, {"query":"Зальцбург","lat":"47.80949","lng":"13.055010000000038","country":"Австрия","full_address":"Зальцбург, Австрия","hash":"6de6176b8ac6a14ce6f661fbb7df6036"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("47.5038387", "12.19236909999995"),
+    });
+
+    bindInfoWindow(marker, {"query":"Зёлль","lat":"47.5038387","lng":"12.19236909999995","country":"Австрия","full_address":"6306 Зёлль, Австрия","hash":"265586362f85b7d36dfacabf9393e6a1"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("47.23834", "9.884990000000016"),
+    });
+
+    bindInfoWindow(marker, {"query":"Türtsch","lat":"47.23834","lng":"9.884990000000016","country":"Австрия","full_address":"6731 Тюрч, Австрия","hash":"e951eedbd83aa3cf9f5cbfaf4b592fe2"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("47.1410303", "9.520927700000016"),
+    });
+
+    bindInfoWindow(marker, {"query":"Вадуц","lat":"47.1410303","lng":"9.520927700000016","country":"Лихтенштейн","full_address":"9490 Вадуц, Лихтенштейн","hash":"58f31ca6db6c93e8bd18a9c57d56fccb"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("47.497912", "19.04023499999994"),
+    });
+
+    bindInfoWindow(marker, {"query":"Будапешт","lat":"47.497912","lng":"19.04023499999994","country":"Венгрия","full_address":"Будапешт, Венгрия","hash":"431b8642dcab370e45c8646bcec659da"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("50.0755381", "14.43780049999998"),
+    });
+
+    bindInfoWindow(marker, {"query":"Прага","lat":"50.0755381","lng":"14.43780049999998","country":"Чехия","full_address":"Прага, Чехия","hash":"ba96dd6eef12ecbf12627c2edb221f25"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("42.4304196", "19.259364199999936"),
+    });
+
+    bindInfoWindow(marker, {"query":"Подгорица","lat":"42.4304196","lng":"19.259364199999936","country":"Черногория","full_address":"Подгорица, Черногория","hash":"2c9c244cb00297e558247dd342ec2166"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("42.424662", "18.77123400000005"),
+    });
+
+    bindInfoWindow(marker, {"query":"Котор","lat":"42.424662","lng":"18.77123400000005","country":"Черногория","full_address":"Котор, Черногория","hash":"ed00d7a2d24fe22121a28e9b1fb42481"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("42.2911489", "18.84029499999997"),
+    });
+
+    bindInfoWindow(marker, {"query":"Будва","lat":"42.2911489","lng":"18.84029499999997","country":"Черногория","full_address":"Будва, Черногория","hash":"38611a691e38ac3dd63ad68b06fcb946"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("42.4349809", "18.706639799999948"),
+    });
+
+    bindInfoWindow(marker, {"query":"Тиват","lat":"42.4349809","lng":"18.706639799999948","country":"Черногория","full_address":"Тиват, Черногория","hash":"07b30737913b4667aa9590da888d0227"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("35.3387352", "25.144212599999946"),
+    });
+
+    bindInfoWindow(marker, {"query":"Ираклион","lat":"35.3387352","lng":"25.144212599999946","country":"Греция","full_address":"Ираклион, Греция","hash":"6758c75978f71baec641f9b0a956feef"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("34.7071301", "33.022617399999945"),
+    });
+
+    bindInfoWindow(marker, {"query":"Лимассол","lat":"34.7071301","lng":"33.022617399999945","country":"Кипр","full_address":"Лимассол, Кипр","hash":"35f02fbb9fca5491367e774820d8a88b"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("34.7720133", "32.429736899999966"),
+    });
+
+    bindInfoWindow(marker, {"query":"Пафос","lat":"34.7720133","lng":"32.429736899999966","country":"Кипр","full_address":"Пафос, Кипр","hash":"a709917f4d7cce67161a0894d4742517"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("34.9002535", "33.623172299999965"),
+    });
+
+    bindInfoWindow(marker, {"query":"Ларнака","lat":"34.9002535","lng":"33.623172299999965","country":"Кипр","full_address":"Ларнака, Кипр","hash":"f5223cfc8801348b8fcaf2ae7bf80504"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("27.9158175", "34.329950499999995"),
+    });
+
+    bindInfoWindow(marker, {"query":"Шарм-эль-Шейк","lat":"27.9158175","lng":"34.329950499999995","country":"Египет","full_address":"Шарм-эль-Шейх, Qesm Sharm Ash Sheikh, Южная Сина, Египет","hash":"5b7339c88173419895fcfd896cedd966"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("37.5078772", "15.083030399999984"),
+    });
+
+    bindInfoWindow(marker, {"query":"Катания","lat":"37.5078772","lng":"15.083030399999984","country":"Италия","full_address":"Катания, Италия","hash":"fae151d0ebfb08dad28378c27b4df3d2"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("54.59728500000001", "-5.930119999999988"),
+    });
+
+    bindInfoWindow(marker, {"query":"Белфаст","lat":"54.59728500000001","lng":"-5.930119999999988","country":"Великобритания","full_address":"Белфаст, Великобритания","hash":"ee9be41e55f512573bf0d651ee9ef80c"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("51.5073509", "-0.12775829999998223"),
+    });
+
+    bindInfoWindow(marker, {"query":"Лондон","lat":"51.5073509","lng":"-0.12775829999998223","country":"Великобритания","full_address":"Лондон, Великобритания","hash":"dc747dbda4df0c1b45cbb1a9db608cf4"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("52.48624299999999", "-1.8904009999999971"),
+    });
+
+    bindInfoWindow(marker, {"query":"Бирмингем","lat":"52.48624299999999","lng":"-1.8904009999999971","country":"Великобритания","full_address":"Бирмингем, Великобритания","hash":"f818a5fbe4eff1e1b712e15ad2fdbc9c"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("25.7616798", "-80.19179020000001"),
+    });
+
+    bindInfoWindow(marker, {"query":"Маями","lat":"25.7616798","lng":"-80.19179020000001","country":"Соединенные Штаты Америки","full_address":"Майами, Флорида, США","hash":"3372745a910155302be6a2457db01feb"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("37.7749295", "-122.41941550000001"),
+    });
+
+    bindInfoWindow(marker, {"query":"Сан-Франциско","lat":"37.7749295","lng":"-122.41941550000001","country":"Соединенные Штаты Америки","full_address":"Сан-Франциско, Калифорния, США","hash":"2c45ba5a7deb58b1d8fb03e60100cd8f"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("37.3382082", "-121.88632860000001"),
+    });
+
+    bindInfoWindow(marker, {"query":"Сан-Хосе","lat":"37.3382082","lng":"-121.88632860000001","country":"Соединенные Штаты Америки","full_address":"Сан-Хосе, Калифорния, США","hash":"22c32dbf876d5f5799f589139131763e"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("37.4418834", "-122.14301949999998"),
+    });
+
+    bindInfoWindow(marker, {"query":"Пало-Альто","lat":"37.4418834","lng":"-122.14301949999998","country":"Соединенные Штаты Америки","full_address":"Пало-Альто, Калифорния, США","hash":"86406949ef0b651adb8a9b6fbca4e485"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("37.3860517", "-122.0838511"),
+    });
+
+    bindInfoWindow(marker, {"query":"Маунтин-Вью","lat":"37.3860517","lng":"-122.0838511","country":"Соединенные Штаты Америки","full_address":"Маунтин-Вью, Калифорния, США","hash":"d62a104e09e859e8087a8095269c6de7"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("37.48521520000001", "-122.23635480000002"),
+    });
+
+    bindInfoWindow(marker, {"query":"Редвуд-Сити","lat":"37.48521520000001","lng":"-122.23635480000002","country":"Соединенные Штаты Америки","full_address":"Редвуд-Сити, Калифорния, США","hash":"44177748f68d8e6c04409faacc9c6dae"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("37.8715926", "-122.27274699999998"),
+    });
+
+    bindInfoWindow(marker, {"query":"Беркли","lat":"37.8715926","lng":"-122.27274699999998","country":"Соединенные Штаты Америки","full_address":"Беркли, Калифорния, США","hash":"1727f13adf2dd64fe3e8c9e174f15b02"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("37.6879241", "-122.47020789999999"),
+    });
+
+    bindInfoWindow(marker, {"query":"Дейли-Сити","lat":"37.6879241","lng":"-122.47020789999999","country":"Соединенные Штаты Америки","full_address":"Дейли-Сити, Калифорния, США","hash":"b3065894645a9dde63f041422a23c282"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("37.3229978", "-122.03218229999999"),
+    });
+
+    bindInfoWindow(marker, {"query":"Купертино","lat":"37.3229978","lng":"-122.03218229999999","country":"Соединенные Штаты Америки","full_address":"Купертино, Калифорния, США","hash":"968fc8a12e695e31c61c1284e61973a1"});
     bounds.extend(marker.position);
   
   map.fitBounds(bounds);
