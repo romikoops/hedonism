@@ -1020,6 +1020,42 @@ function initMap() {
     bindInfoWindow(marker, {"query":"Купертино","lat":"37.3229978","lng":"-122.03218229999999","country":"Соединенные Штаты Америки","full_address":"Купертино, Калифорния, США","hash":"968fc8a12e695e31c61c1284e61973a1"});
     bounds.extend(marker.position);
   
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("43.73841760000001", "7.42461579999997"),
+    });
+
+    bindInfoWindow(marker, {"query":"Monaco","lat":"43.73841760000001","lng":"7.42461579999997","country":"Монако","full_address":"Монако","hash":"4685e3b81e1a2f22aa36410935f68d8e"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("43.7101728", "7.261953199999994"),
+    });
+
+    bindInfoWindow(marker, {"query":"Nice","lat":"43.7101728","lng":"7.261953199999994","country":"Франция","full_address":"Ницца, Франция","hash":"9d9b569d288d9f93fa93db4fe7efe5c7"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("43.7101728", "7.261953199999994"),
+    });
+
+    bindInfoWindow(marker, {"query":"Nice","lat":"43.7101728","lng":"7.261953199999994","country":"Франция","full_address":"Ницца, Франция","hash":"9d9b569d288d9f93fa93db4fe7efe5c7"});
+    bounds.extend(marker.position);
+  
+    var marker = new google.maps.Marker({
+      map: map,
+      icon: markerIcon(),
+      position: new google.maps.LatLng("43.552847", "7.017369000000031"),
+    });
+
+    bindInfoWindow(marker, {"query":"Cannes","lat":"43.552847","lng":"7.017369000000031","country":"Франция","full_address":"Канны, Франция","hash":"cf56bdb07fc93c580067a062dd3aa416"});
+    bounds.extend(marker.position);
+  
   map.fitBounds(bounds);
 }
 </script>
@@ -1027,7 +1063,7 @@ function initMap() {
   <body>
     <div id="map"></div>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWd4iop7hHwd44_pUUsldRrppsBi3wmcw&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBD9n3t4tszQdZk-Bif_W80ybhHhnPfTP0&callback=initMap">
     </script>
   </body>
 </html>

@@ -611,3 +611,27 @@
   lng: "-122.03218229999999"
   country: Соединенные Штаты Америки
   full_address: Купертино, Калифорния, США
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Monaco
+  lat: '43.73841760000001'
+  lng: '7.42461579999997'
+  country: Монако
+  full_address: Монако
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Nice
+  lat: '43.7101728'
+  lng: '7.261953199999994'
+  country: Франция
+  full_address: Ницца, Франция
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Nice
+  lat: '43.7101728'
+  lng: '7.261953199999994'
+  country: Франция
+  full_address: Ницца, Франция
+- !ruby/hash:Sinatra::IndifferentHash
+  query: Cannes
+  lat: '43.552847'
+  lng: '7.017369000000031'
+  country: Франция
+  full_address: Канны, Франция
